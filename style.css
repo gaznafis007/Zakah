@@ -156,3 +156,94 @@ h3{
     text-align: center;
     margin-top: 2rem;
 }
+@media only screen and (max-width: 768px){
+    header{
+        width: 100%;
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+    }
+    .header-text{
+        width: 90%;
+        padding: 2rem;
+    }
+    .heading{
+        font-size: 28px;
+    }
+    .h-para{
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 16px;
+        color: #fff;
+        margin-top: 0.5rem;
+    }
+    .btn{
+        padding: 5px 8px;
+        border-radius: 2px;
+        font-family: inter;
+        color: #fff;
+        font-weight: 400;
+        font-size: 12px;
+        margin-top: 0.5rem;
+    }
+    .content{
+        width: 100%;
+        padding: 1rem;
+    }
+    .content-heading{
+        font-size: 24px;
+    }
+    .content-para{
+        font-size: 10px;
+        line-height: 16px;
+        margin-top: 0.5rem;
+    }
+    .roadmap{
+        margin-top: 2rem;
+    }
+    .box{
+        width: 100%;
+        padding: 2rem;
+        margin-top: 0.5rem;
+        border-radius: 5px;
+        display: flex;
+    }
+    .box-heading{
+        font-size: 14px;
+    }
+    .box-text p{
+        margin-top: 0.5rem;
+        line-height: 16px;
+        font-size: 10px;
+    }
+    .sm-gallery{
+        display: block;
+    }
+    .card{
+        width: 100%;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        margin-top: 1rem;
+    }
+    .card-img-top img{
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        object-position: center;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        
+    }
+    footer{
+        padding: 5px;
+    }
+    .footer-head{
+        font-size: 28px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .footer-head, .footer-p, .footer-logo{
+        margin-top: 1rem;
+    }
+}
